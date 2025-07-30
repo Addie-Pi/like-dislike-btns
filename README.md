@@ -1,12 +1,40 @@
-# React + Vite
+# 👍 Like / 👎 Dislike Button Component (React + TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple interactive Like/Dislike button component built with **React 18**, **TypeScript**, and `useReducer`.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Like and Dislike buttons with toggle behavior
+- Fully synchronized state logic (mutual exclusivity)
+- Built using `useReducer` for clean and scalable state management
+- Type-safe with TypeScript
+- Minimal dependencies (only `classnames` used)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+- React 18.2.0
+- TypeScript 4.2.4
+- classnames 2.3.1
+- No CSS frameworks used
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
+npm install
+# or
+yarn
+
+### 2. Start the dev server
+npm start
+# or
+yarn start
+
+Open your browser and visit: http://localhost:3000
+
+
+## 📄 License
+MIT License. Feel free to use and modify.

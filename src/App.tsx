@@ -1,13 +1,16 @@
 import { useState } from 'react'
 
 import './App.css'
+import LikeDislike from './components/LikeDislike'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      hello
+      Display the Like and Dislike buttons
+      <br />
+      <hr/>
+      <br />
+      <LikeDislike/>
     </>
   )
 }
