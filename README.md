@@ -31,6 +31,7 @@ npm start / yarn start
 
 Open your browser and visit: http://localhost:3000
 
+---
 
 ## 📄 License
 MIT License. Feel free to use and modify.
