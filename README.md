@@ -24,10 +24,10 @@ A simple interactive Like/Dislike button component built with **React 18**, **Ty
 ## 🚀 Getting Started
 
 ### 1. Install dependencies
-npm install / yarn
+npm install
 
 ### 2. Start the dev server
-npm start / yarn start
+npm run dev
 
 Open your browser and visit: http://localhost:3000
 
